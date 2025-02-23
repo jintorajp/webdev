@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: burlywood;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+   
+   
+    
+    
+}
+
+.card{
+    width: 90%;
+    
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 28px;
+    
+    /* ✅ Allows the height to grow dynamically */
+    display: block; /* Not fixed size */
+    height: auto; /* Adjusts automatically */
+
+    
+    
+
+   
+    
+
+}
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    width: 7 px;
+    border: 2px solid #ccc;
+
+
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(#F4D03F,#16A085,#6F1414);
+    border-radius: 10px;
+    
+
+}

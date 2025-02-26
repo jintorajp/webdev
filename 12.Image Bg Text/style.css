@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.heading{
+    font-size: 10rem;
+    font-weight: 900;
+    color: transparent;
+    background-image: url(teodor-drobota-uyyRJA2an4o-unsplash.jpg);
+    background-clip: text;
+    background-size: cover;
+   
+}

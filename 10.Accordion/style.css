@@ -1,0 +1,49 @@
+*{ 
+    margin:0;
+    padding: 0;
+     box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+#accordion{
+    width: 600px;
+    margin: 100px auto;
+}
+#accordion li{
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: rgba(128, 141, 146, 0.866);
+    padding: 10px;
+    width: 100%;
+
+}   
+    #accordion li label{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+    #accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    
+}
+   #accordion li .content{
+    line-height:26px ;
+    padding: 0 10px;
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input{
+    display: none;
+}
+
+#accordion label + input:checked + .content {
+    max-height: 400px;
+  }

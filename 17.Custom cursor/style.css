@@ -1,0 +1,46 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+h1{
+    color: white;
+    margin: 10px auto;
+}
+p{
+    color: white;
+    line-height: 22px;
+    letter-spacing: 2px;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(9, 216, 239);
+    text-transform: uppercase;
+    color: azure;
+    background-color: black;
+}
+.cursor{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(9, 251, 239);
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
